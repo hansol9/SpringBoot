@@ -3,7 +3,7 @@ package hansol9.study.springboot;
 //import org.apache.catalina.Context;
 //import org.apache.catalina.LifecycleException;
 //import org.apache.catalina.startup.Tomcat;
-import org.apache.catalina.connector.Connector;
+//import org.apache.catalina.connector.Connector;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
