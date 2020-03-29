@@ -4,12 +4,15 @@ package hansol9.study.springboot;
 //import org.apache.catalina.LifecycleException;
 //import org.apache.catalina.startup.Tomcat;
 //import org.apache.catalina.connector.Connector;
+import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
 import org.springframework.boot.web.servlet.server.ServletWebServerFactory;
 import org.springframework.context.annotation.Bean;
+import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,6 +21,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.io.PrintWriter;
 
 @SpringBootApplication
@@ -61,9 +65,24 @@ public class SpringbootApplication {
     }
     */
     public static void main(String[] args) {
-        SpringApplication application = new SpringApplication(SpringbootApplication.class);
+//        SpringApplication application = new SpringApplication(SpringbootApplication.class);
 //        application.setWebApplicationType(WebApplicationType.NONE);
-        application.run(args);
+        /*
+        application.setBanner(new Banner() {
+            @Override
+            public void printBanner(Environment environment, Class<?> sourceClass, PrintStream out) {
+                out.println("===================");
+                out.println("Custom Banner by coding");
+                out.println("===================");
+            }
+        });
+        */
+//        application.setBannerMode(Banner.Mode.OFF);
+//        application.run(args);
+
+        new SpringApplicationBuilder()
+                .sources(SpringbootApplication.class)
+                .run(args);
     }
 
     @GetMapping("/hello")
