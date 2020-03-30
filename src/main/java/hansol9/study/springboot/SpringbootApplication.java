@@ -65,7 +65,7 @@ public class SpringbootApplication {
     }
     */
     public static void main(String[] args) {
-//        SpringApplication application = new SpringApplication(SpringbootApplication.class);
+        SpringApplication application = new SpringApplication(SpringbootApplication.class);
 //        application.setWebApplicationType(WebApplicationType.NONE);
         /*
         application.setBanner(new Banner() {
@@ -78,11 +78,13 @@ public class SpringbootApplication {
         });
         */
 //        application.setBannerMode(Banner.Mode.OFF);
-//        application.run(args);
+        application.addListeners(new SampleListener());
+        application.setWebApplicationType(WebApplicationType.SERVLET);
+        application.run(args);
 
-        new SpringApplicationBuilder()
-                .sources(SpringbootApplication.class)
-                .run(args);
+//        new SpringApplicationBuilder()
+//                .sources(SpringbootApplication.class)
+//                .run(args);
     }
 
     @GetMapping("/hello")
