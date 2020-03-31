@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringRunner.class)
 //@TestPropertySource(properties = "holoman.name=annotation properties")
-@TestPropertySource(locations = "classpath:/application_test.properties")
+@TestPropertySource(locations = "classpath:/application-tdd.properties")
 @SpringBootTest
 //@SpringBootTest(properties = "holoman.name=annotation properties")
 class SpringbootApplicationTests {
@@ -25,7 +25,7 @@ class SpringbootApplicationTests {
     @Test
     void contextLoads() {
         assertThat(environment.getProperty("holoman.name"))
-        .isEqualTo("Test for properties");
+        .isEqualTo("TDD for properties");
     }
 
 }

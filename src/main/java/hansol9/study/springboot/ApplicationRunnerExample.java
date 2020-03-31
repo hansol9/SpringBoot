@@ -21,6 +21,9 @@ public class ApplicationRunnerExample implements ApplicationRunner {
     @Autowired
     ExternalProperties properties;
 
+    @Autowired
+    private String hello;
+
     @Override
     public void run(ApplicationArguments args) throws Exception {
         System.out.println("Application Runner!!!");
@@ -29,5 +32,10 @@ public class ApplicationRunnerExample implements ApplicationRunner {
         System.out.println("Properties: " + properties.getName());
         System.out.println("age: " + properties.getAge());
         System.out.println("Session Timeout: " + properties.getSessionTimeout());
+
+        System.out.println("============================");
+        System.out.println(hello);
+        System.out.println(properties.getFullName());
+        System.out.println("============================");
     }
 }
