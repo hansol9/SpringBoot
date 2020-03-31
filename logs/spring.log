@@ -2242,3 +2242,118 @@ Unconditional classes:
 2020-03-31 11:49:09.558 DEBUG 47688 --- [main] h.s.springboot.ApplicationRunnerExample  : hello DEV
 2020-03-31 11:49:09.558 DEBUG 47688 --- [main] h.s.springboot.ApplicationRunnerExample  : holoman for TEST Places
 2020-03-31 11:49:09.558 DEBUG 47688 --- [main] h.s.springboot.ApplicationRunnerExample  : ============================
+2020-03-31 11:56:31.328  INFO 47688 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-31 11:56:36.697  INFO 48262 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 48262 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-03-31 11:56:36.701 DEBUG 48262 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-31 11:56:36.702  INFO 48262 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-03-31 11:56:37.225  INFO 48262 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-03-31 11:56:37.236  INFO 48262 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-31 11:56:37.237  INFO 48262 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 11:56:37.284  INFO 48262 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-31 11:56:37.284  INFO 48262 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 556 ms
+2020-03-31 11:56:37.473  INFO 48262 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-31 11:56:37.588  INFO 48262 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-31 11:56:37.591  INFO 48262 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.215 seconds (JVM running for 2.053)
+2020-03-31 11:56:37.591 DEBUG 48262 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-03-31 11:56:37.591 DEBUG 48262 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-03-31 11:56:37.592 DEBUG 48262 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-03-31 11:56:37.592 DEBUG 48262 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-03-31 11:56:37.599 DEBUG 48262 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-03-31 11:56:37.599 DEBUG 48262 --- [main] h.s.s.ApplicationRunnerExample           : age: 21
+2020-03-31 11:56:37.600 DEBUG 48262 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-03-31 11:56:37.602 DEBUG 48262 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-03-31 11:56:37.602 DEBUG 48262 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-03-31 11:56:37.602 DEBUG 48262 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-03-31 11:56:37.602 DEBUG 48262 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-03-31 11:57:36.436  INFO 48262 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-31 11:57:38.957  INFO 48353 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 48353 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-03-31 11:57:38.963 DEBUG 48353 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-31 11:57:38.964  INFO 48353 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-03-31 11:57:39.660  INFO 48353 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-03-31 11:57:39.675  INFO 48353 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-31 11:57:39.676  INFO 48353 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 11:57:39.737  INFO 48353 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-31 11:57:39.737  INFO 48353 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 738 ms
+2020-03-31 11:57:39.972  INFO 48353 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-31 11:57:40.114  INFO 48353 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-31 11:57:40.117  INFO 48353 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.517 seconds (JVM running for 2.227)
+2020-03-31 11:57:40.118 DEBUG 48353 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-03-31 11:57:40.118 DEBUG 48353 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-03-31 11:57:40.118 DEBUG 48353 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-03-31 11:57:40.119 DEBUG 48353 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-03-31 11:57:40.128 DEBUG 48353 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-03-31 11:57:40.129 DEBUG 48353 --- [main] h.s.s.ApplicationRunnerExample           : age: 94
+2020-03-31 11:57:40.129 DEBUG 48353 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-03-31 11:57:40.131 DEBUG 48353 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-03-31 11:57:40.131 DEBUG 48353 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-03-31 11:57:40.131 DEBUG 48353 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-03-31 11:57:40.131 DEBUG 48353 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-03-31 11:57:58.182  INFO 48353 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-31 11:58:00.438  INFO 48383 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 48383 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-03-31 11:58:00.443 DEBUG 48383 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-31 11:58:00.444  INFO 48383 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-03-31 11:58:01.309  INFO 48383 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-03-31 11:58:01.325  INFO 48383 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-31 11:58:01.325  INFO 48383 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 11:58:01.389  INFO 48383 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-31 11:58:01.389  INFO 48383 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 918 ms
+2020-03-31 11:58:01.593  INFO 48383 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-31 11:58:01.717  INFO 48383 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-31 11:58:01.720  INFO 48383 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.616 seconds (JVM running for 2.204)
+2020-03-31 11:58:01.721 DEBUG 48383 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-03-31 11:58:01.721 DEBUG 48383 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-03-31 11:58:01.721 DEBUG 48383 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-03-31 11:58:01.721 DEBUG 48383 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-03-31 11:58:01.730 DEBUG 48383 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-03-31 11:58:01.730 DEBUG 48383 --- [main] h.s.s.ApplicationRunnerExample           : age: 35
+2020-03-31 11:58:01.731 DEBUG 48383 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-03-31 11:58:01.732 DEBUG 48383 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-03-31 11:58:01.732 DEBUG 48383 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-03-31 11:58:01.732 DEBUG 48383 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-03-31 11:58:01.732 DEBUG 48383 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-03-31 11:58:09.945  INFO 48383 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-31 11:58:11.439  INFO 48407 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 48407 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-03-31 11:58:11.444 DEBUG 48407 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-31 11:58:11.445  INFO 48407 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-03-31 11:58:12.013  INFO 48407 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-03-31 11:58:12.025  INFO 48407 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-31 11:58:12.026  INFO 48407 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 11:58:12.076  INFO 48407 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-31 11:58:12.076  INFO 48407 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 605 ms
+2020-03-31 11:58:12.272  INFO 48407 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-31 11:58:12.388  INFO 48407 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-31 11:58:12.391  INFO 48407 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.234 seconds (JVM running for 1.824)
+2020-03-31 11:58:12.391 DEBUG 48407 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-03-31 11:58:12.391 DEBUG 48407 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-03-31 11:58:12.392 DEBUG 48407 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-03-31 11:58:12.392 DEBUG 48407 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-03-31 11:58:12.399 DEBUG 48407 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-03-31 11:58:12.399 DEBUG 48407 --- [main] h.s.s.ApplicationRunnerExample           : age: 35
+2020-03-31 11:58:12.400 DEBUG 48407 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-03-31 11:58:12.401 DEBUG 48407 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-03-31 11:58:12.401 DEBUG 48407 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-03-31 11:58:12.401 DEBUG 48407 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-03-31 11:58:12.401 DEBUG 48407 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-03-31 11:58:22.546  INFO 48407 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-31 11:58:35.184  INFO 48445 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 48445 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-03-31 11:58:35.189 DEBUG 48445 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-31 11:58:35.189  INFO 48445 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-03-31 11:58:35.812  INFO 48445 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-03-31 11:58:35.826  INFO 48445 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-31 11:58:35.827  INFO 48445 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 11:58:35.889  INFO 48445 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-31 11:58:35.889  INFO 48445 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 673 ms
+2020-03-31 11:58:36.089  INFO 48445 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-31 11:58:36.212  INFO 48445 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-31 11:58:36.214  INFO 48445 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.32 seconds (JVM running for 1.919)
+2020-03-31 11:58:36.215 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-03-31 11:58:36.215 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-03-31 11:58:36.215 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-03-31 11:58:36.215 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-03-31 11:58:36.223 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-03-31 11:58:36.223 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : age: 2
+2020-03-31 11:58:36.224 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-03-31 11:58:36.225 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-03-31 11:58:36.225 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-03-31 11:58:36.225 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-03-31 11:58:36.225 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : ============================
