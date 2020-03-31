@@ -30,13 +30,13 @@ public class ApplicationRunnerExample implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        logger.info("===================================");
-        logger.info("Application Runner!!!");
-        logger.info("foo: " + args.containsOption("foo"));
-        logger.info("bar: " + args.containsOption("bar"));
-        logger.info("Properties: " + properties.getName());
-        logger.info("age: " + properties.getAge());
-        logger.info("Session Timeout: " + properties.getSessionTimeout());
+        logger.debug("===================================");
+        logger.debug("Application Runner!!!");
+        logger.debug("foo: " + args.containsOption("foo"));
+        logger.debug("bar: " + args.containsOption("bar"));
+        logger.debug("Properties: " + properties.getName());
+        logger.debug("age: " + properties.getAge());
+        logger.debug("Session Timeout: " + properties.getSessionTimeout());
 
 
         System.out.println("Application Runner!!!");
@@ -46,10 +46,10 @@ public class ApplicationRunnerExample implements ApplicationRunner {
         System.out.println("age: " + properties.getAge());
         System.out.println("Session Timeout: " + properties.getSessionTimeout());
 
-        logger.info("============================");
-        logger.info(hello);
-        logger.info(properties.getFullName());
-        logger.info("============================");
+        logger.debug("============================");
+        logger.debug(hello);
+        logger.debug(properties.getFullName());
+        logger.debug("============================");
 
         System.out.println("============================");
         System.out.println(hello);
