@@ -2562,3 +2562,13 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2020-04-01 23:44:43.944  INFO 63895 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 9 ms
 2020-04-01 23:44:43.968  INFO 63895 --- [main] h.s.s.s.SliceControllerTest              : Started SliceControllerTest in 1.65 seconds (JVM running for 2.749)
 2020-04-01 23:44:44.053  INFO 63895 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 18:56:41.307  INFO 17190 --- [main] h.s.s.s.SliceControllerTest              : Starting SliceControllerTest on Hansol9ui-MacBookPro-2.local with PID 17190 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-02 18:56:41.316 DEBUG 17190 --- [main] h.s.s.s.SliceControllerTest              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 18:56:41.317  INFO 17190 --- [main] h.s.s.s.SliceControllerTest              : The following profiles are active: test
+2020-04-02 18:56:42.481  INFO 17190 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 18:56:42.650  INFO 17190 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-02 18:56:42.650  INFO 17190 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-02 18:56:42.659  INFO 17190 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 9 ms
+2020-04-02 18:56:42.682  INFO 17190 --- [main] h.s.s.s.SliceControllerTest              : Started SliceControllerTest in 1.703 seconds (JVM running for 2.903)
+2020-04-02 18:56:42.745  INFO 17190 --- [main] h.s.s.s.SampleController                 : holoman
+2020-04-02 18:56:42.827  INFO 17190 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
