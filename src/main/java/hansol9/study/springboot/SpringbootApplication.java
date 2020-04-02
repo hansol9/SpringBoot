@@ -91,10 +91,10 @@ public class SpringbootApplication {
 //                .run(args);
     }
 
-    @GetMapping("/hello")
-    public String hello() {
-        return "Hello Spring";
-    }
+//    @GetMapping("/hello")
+//    public String hello() {
+//        return "Hello Spring";
+//    }
 
     /*
     @Bean

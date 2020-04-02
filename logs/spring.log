@@ -2357,3 +2357,208 @@ Unconditional classes:
 2020-03-31 11:58:36.225 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
 2020-03-31 11:58:36.225 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
 2020-03-31 11:58:36.225 DEBUG 48445 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-03-31 12:01:25.296  INFO 48445 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:13:59.039  INFO 42332 --- [main] h.s.s.s.SampleControllerTest             : Starting SampleControllerTest on Hansol9ui-MacBookPro-2.local with PID 42332 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-01 15:13:59.046 DEBUG 42332 --- [main] h.s.s.s.SampleControllerTest             : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 15:13:59.046  INFO 42332 --- [main] h.s.s.s.SampleControllerTest             : The following profiles are active: test
+2020-04-01 15:14:00.028  INFO 42332 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:14:00.219  INFO 42332 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-01 15:14:00.219  INFO 42332 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-01 15:14:00.227  INFO 42332 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 8 ms
+2020-04-01 15:14:00.244  INFO 42332 --- [main] h.s.s.s.SampleControllerTest             : Started SampleControllerTest in 1.504 seconds (JVM running for 2.73)
+2020-04-01 15:14:00.244 DEBUG 42332 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-01 15:14:00.245 DEBUG 42332 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-01 15:14:00.245 DEBUG 42332 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-01 15:14:00.245 DEBUG 42332 --- [main] h.s.s.ApplicationRunnerExample           : bar: false
+2020-04-01 15:14:00.255 DEBUG 42332 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-01 15:14:00.256 DEBUG 42332 --- [main] h.s.s.ApplicationRunnerExample           : age: 14
+2020-04-01 15:14:00.257 DEBUG 42332 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-01 15:14:00.258 DEBUG 42332 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:14:00.258 DEBUG 42332 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-01 15:14:00.258 DEBUG 42332 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-01 15:14:00.258 DEBUG 42332 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:14:00.608  INFO 42332 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:17:03.712  INFO 42534 --- [main] h.s.s.s.SampleControllerTest             : Starting SampleControllerTest on Hansol9ui-MacBookPro-2.local with PID 42534 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-01 15:17:03.719 DEBUG 42534 --- [main] h.s.s.s.SampleControllerTest             : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 15:17:03.720  INFO 42534 --- [main] h.s.s.s.SampleControllerTest             : The following profiles are active: test
+2020-04-01 15:17:04.490  INFO 42534 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-04-01 15:17:04.506  INFO 42534 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-01 15:17:04.507  INFO 42534 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 15:17:04.587  INFO 42534 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-01 15:17:04.588  INFO 42534 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 852 ms
+2020-04-01 15:17:04.949  INFO 42534 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:17:05.165  INFO 42534 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 57801 (http) with context path ''
+2020-04-01 15:17:05.168  INFO 42534 --- [main] h.s.s.s.SampleControllerTest             : Started SampleControllerTest in 1.756 seconds (JVM running for 3.003)
+2020-04-01 15:17:05.169 DEBUG 42534 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-01 15:17:05.169 DEBUG 42534 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-01 15:17:05.170 DEBUG 42534 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-01 15:17:05.170 DEBUG 42534 --- [main] h.s.s.ApplicationRunnerExample           : bar: false
+2020-04-01 15:17:05.181 DEBUG 42534 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-01 15:17:05.181 DEBUG 42534 --- [main] h.s.s.ApplicationRunnerExample           : age: 33
+2020-04-01 15:17:05.182 DEBUG 42534 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-01 15:17:05.183 DEBUG 42534 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:17:05.183 DEBUG 42534 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-01 15:17:05.184 DEBUG 42534 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-01 15:17:05.184 DEBUG 42534 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:17:05.554  INFO 42534 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 15:17:05.555  INFO 42534 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-01 15:17:05.569  INFO 42534 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 14 ms
+2020-04-01 15:17:05.699  INFO 42534 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:17:32.180  INFO 42568 --- [main] h.s.s.s.SampleControllerTest             : Starting SampleControllerTest on Hansol9ui-MacBookPro-2.local with PID 42568 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-01 15:17:32.186 DEBUG 42568 --- [main] h.s.s.s.SampleControllerTest             : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 15:17:32.187  INFO 42568 --- [main] h.s.s.s.SampleControllerTest             : The following profiles are active: test
+2020-04-01 15:17:32.844  INFO 42568 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-04-01 15:17:32.860  INFO 42568 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-01 15:17:32.861  INFO 42568 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 15:17:32.927  INFO 42568 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-01 15:17:32.927  INFO 42568 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 724 ms
+2020-04-01 15:17:33.254  INFO 42568 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:17:33.466  INFO 42568 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 57819 (http) with context path ''
+2020-04-01 15:17:33.469  INFO 42568 --- [main] h.s.s.s.SampleControllerTest             : Started SampleControllerTest in 1.582 seconds (JVM running for 2.509)
+2020-04-01 15:17:33.470 DEBUG 42568 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-01 15:17:33.470 DEBUG 42568 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-01 15:17:33.471 DEBUG 42568 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-01 15:17:33.471 DEBUG 42568 --- [main] h.s.s.ApplicationRunnerExample           : bar: false
+2020-04-01 15:17:33.481 DEBUG 42568 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-01 15:17:33.482 DEBUG 42568 --- [main] h.s.s.ApplicationRunnerExample           : age: 65
+2020-04-01 15:17:33.483 DEBUG 42568 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-01 15:17:33.484 DEBUG 42568 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:17:33.484 DEBUG 42568 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-01 15:17:33.485 DEBUG 42568 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-01 15:17:33.485 DEBUG 42568 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:17:33.831  INFO 42568 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 15:17:33.831  INFO 42568 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-01 15:17:33.843  INFO 42568 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 12 ms
+2020-04-01 15:17:33.921  INFO 42568 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:21:48.733  INFO 42848 --- [main] h.s.s.s.SampleControllerTest             : Starting SampleControllerTest on Hansol9ui-MacBookPro-2.local with PID 42848 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-01 15:21:48.739 DEBUG 42848 --- [main] h.s.s.s.SampleControllerTest             : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 15:21:48.740  INFO 42848 --- [main] h.s.s.s.SampleControllerTest             : The following profiles are active: test
+2020-04-01 15:21:49.762  INFO 42848 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-04-01 15:21:49.781  INFO 42848 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-01 15:21:49.782  INFO 42848 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 15:21:49.877  INFO 42848 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-01 15:21:49.877  INFO 42848 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1121 ms
+2020-04-01 15:21:50.212  INFO 42848 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:21:50.411  INFO 42848 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 57939 (http) with context path ''
+2020-04-01 15:21:50.414  INFO 42848 --- [main] h.s.s.s.SampleControllerTest             : Started SampleControllerTest in 1.994 seconds (JVM running for 3.016)
+2020-04-01 15:21:50.415 DEBUG 42848 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-01 15:21:50.415 DEBUG 42848 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-01 15:21:50.415 DEBUG 42848 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-01 15:21:50.415 DEBUG 42848 --- [main] h.s.s.ApplicationRunnerExample           : bar: false
+2020-04-01 15:21:50.424 DEBUG 42848 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-01 15:21:50.425 DEBUG 42848 --- [main] h.s.s.ApplicationRunnerExample           : age: 68
+2020-04-01 15:21:50.425 DEBUG 42848 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-01 15:21:50.426 DEBUG 42848 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:21:50.427 DEBUG 42848 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-01 15:21:50.427 DEBUG 42848 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-01 15:21:50.427 DEBUG 42848 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:21:50.525  INFO 42848 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 15:21:50.526  INFO 42848 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-01 15:21:50.538  INFO 42848 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 12 ms
+2020-04-01 15:21:50.616  INFO 42848 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:26:38.291  INFO 43154 --- [main] h.s.s.s.SampleControllerTest             : Starting SampleControllerTest on Hansol9ui-MacBookPro-2.local with PID 43154 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-01 15:26:38.298 DEBUG 43154 --- [main] h.s.s.s.SampleControllerTest             : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 15:26:38.299  INFO 43154 --- [main] h.s.s.s.SampleControllerTest             : The following profiles are active: test
+2020-04-01 15:26:39.280  INFO 43154 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-04-01 15:26:39.297  INFO 43154 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-01 15:26:39.297  INFO 43154 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 15:26:39.373  INFO 43154 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-01 15:26:39.373  INFO 43154 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1058 ms
+2020-04-01 15:26:39.719  INFO 43154 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:26:39.929  INFO 43154 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 58064 (http) with context path ''
+2020-04-01 15:26:39.932  INFO 43154 --- [main] h.s.s.s.SampleControllerTest             : Started SampleControllerTest in 1.918 seconds (JVM running for 3.057)
+2020-04-01 15:26:39.932 DEBUG 43154 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-01 15:26:39.933 DEBUG 43154 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-01 15:26:39.933 DEBUG 43154 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-01 15:26:39.933 DEBUG 43154 --- [main] h.s.s.ApplicationRunnerExample           : bar: false
+2020-04-01 15:26:39.943 DEBUG 43154 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-01 15:26:39.944 DEBUG 43154 --- [main] h.s.s.ApplicationRunnerExample           : age: 27
+2020-04-01 15:26:39.944 DEBUG 43154 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-01 15:26:39.946 DEBUG 43154 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:26:39.946 DEBUG 43154 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-01 15:26:39.946 DEBUG 43154 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-01 15:26:39.946 DEBUG 43154 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:26:39.961 ERROR 43154 --- [main] o.s.t.c.TestContextManager               : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36e409e0] to prepare test instance [hansol9.study.springboot.sample.SampleControllerTest@145e958f]
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'hansol9.study.springboot.sample.SampleControllerTest': Unsatisfied dependency expressed through field 'webTestClient'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.reactive.server.WebTestClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119) ~[spring-test-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) [spring-test-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.reactive.server.WebTestClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	... 28 more
+
+2020-04-01 15:26:39.979  INFO 43154 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:31:41.925  INFO 43488 --- [main] h.s.s.s.SampleControllerTest             : Starting SampleControllerTest on Hansol9ui-MacBookPro-2.local with PID 43488 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-01 15:31:41.932 DEBUG 43488 --- [main] h.s.s.s.SampleControllerTest             : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 15:31:41.933  INFO 43488 --- [main] h.s.s.s.SampleControllerTest             : The following profiles are active: test
+2020-04-01 15:31:43.122  INFO 43488 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-04-01 15:31:43.143  INFO 43488 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-01 15:31:43.143  INFO 43488 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 15:31:43.247  INFO 43488 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-01 15:31:43.247  INFO 43488 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1296 ms
+2020-04-01 15:31:43.689  INFO 43488 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 15:31:44.001  INFO 43488 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 58210 (http) with context path ''
+2020-04-01 15:31:44.004  INFO 43488 --- [main] h.s.s.s.SampleControllerTest             : Started SampleControllerTest in 2.401 seconds (JVM running for 3.647)
+2020-04-01 15:31:44.005 DEBUG 43488 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-01 15:31:44.005 DEBUG 43488 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-01 15:31:44.006 DEBUG 43488 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-01 15:31:44.006 DEBUG 43488 --- [main] h.s.s.ApplicationRunnerExample           : bar: false
+2020-04-01 15:31:44.015 DEBUG 43488 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-01 15:31:44.016 DEBUG 43488 --- [main] h.s.s.ApplicationRunnerExample           : age: 22
+2020-04-01 15:31:44.017 DEBUG 43488 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-01 15:31:44.018 DEBUG 43488 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:31:44.018 DEBUG 43488 --- [main] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-01 15:31:44.018 DEBUG 43488 --- [main] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-01 15:31:44.018 DEBUG 43488 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-01 15:31:44.343  INFO 43488 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 15:31:44.344  INFO 43488 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-01 15:31:44.358  INFO 43488 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 14 ms
+2020-04-01 15:31:46.511  INFO 43488 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-01 23:44:12.512  INFO 63859 --- [main] h.s.s.s.SliceControllerTest              : Starting SliceControllerTest on Hansol9ui-MacBookPro-2.local with PID 63859 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-01 23:44:12.519 DEBUG 63859 --- [main] h.s.s.s.SliceControllerTest              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 23:44:12.520  INFO 63859 --- [main] h.s.s.s.SliceControllerTest              : The following profiles are active: test
+2020-04-01 23:44:13.593  INFO 63859 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 23:44:13.777  INFO 63859 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-01 23:44:13.777  INFO 63859 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-01 23:44:13.787  INFO 63859 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 10 ms
+2020-04-01 23:44:13.811  INFO 63859 --- [main] h.s.s.s.SliceControllerTest              : Started SliceControllerTest in 1.601 seconds (JVM running for 2.925)
+2020-04-01 23:44:13.894  INFO 63859 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-01 23:44:42.656  INFO 63895 --- [main] h.s.s.s.SliceControllerTest              : Starting SliceControllerTest on Hansol9ui-MacBookPro-2.local with PID 63895 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-01 23:44:42.663 DEBUG 63895 --- [main] h.s.s.s.SliceControllerTest              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 23:44:42.664  INFO 63895 --- [main] h.s.s.s.SliceControllerTest              : The following profiles are active: test
+2020-04-01 23:44:43.753  INFO 63895 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 23:44:43.934  INFO 63895 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-01 23:44:43.934  INFO 63895 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-01 23:44:43.944  INFO 63895 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 9 ms
+2020-04-01 23:44:43.968  INFO 63895 --- [main] h.s.s.s.SliceControllerTest              : Started SliceControllerTest in 1.65 seconds (JVM running for 2.749)
+2020-04-01 23:44:44.053  INFO 63895 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
