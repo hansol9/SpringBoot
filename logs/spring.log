@@ -3069,3 +3069,101 @@ hansol9.study.springboot.sample.SampleController#hello() mapped.
 2020-04-02 20:17:28.752  INFO 22557 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
 2020-04-02 20:17:28.762  INFO 22557 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 10 ms
 2020-04-02 20:17:28.784  INFO 22557 --- [main] h.s.s.u.UserControllerTest               : Started UserControllerTest in 1.092 seconds (JVM running for 2.1)
+2020-04-02 20:25:46.817  INFO 23122 --- [main] h.s.s.u.UserControllerTest               : Starting UserControllerTest on Hansol9ui-MacBookPro-2.local with PID 23122 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-02 20:25:46.824 DEBUG 23122 --- [main] h.s.s.u.UserControllerTest               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 20:25:46.825  INFO 23122 --- [main] h.s.s.u.UserControllerTest               : The following profiles are active: test
+2020-04-02 20:25:47.624  INFO 23122 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-02 20:25:47.625  INFO 23122 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-02 20:25:47.635  INFO 23122 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 10 ms
+2020-04-02 20:25:47.658  INFO 23122 --- [main] h.s.s.u.UserControllerTest               : Started UserControllerTest in 1.155 seconds (JVM running for 2.497)
+2020-04-02 20:25:48.066  WARN 23122 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2020-04-02 20:29:24.721  INFO 17975 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 17975 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-02 20:29:24.722 DEBUG 17975 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 20:29:24.722  INFO 17975 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-02 20:29:24.954  INFO 17975 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-02 20:29:24.956  INFO 17975 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-02 20:29:24.956  INFO 17975 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 20:29:24.966  INFO 17975 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-02 20:29:24.966  INFO 17975 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 239 ms
+2020-04-02 20:29:25.013  INFO 17975 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 20:29:25.060  INFO 17975 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-02 20:29:25.071  INFO 17975 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-02 20:29:25.072  INFO 17975 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 0.654 seconds (JVM running for 4936.722)
+2020-04-02 20:29:25.073  INFO 17975 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-02 20:29:26.473  INFO 17975 --- [Thread-23] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 20:29:26.580  INFO 17975 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 17975 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-02 20:29:26.580 DEBUG 17975 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 20:29:26.581  INFO 17975 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-02 20:29:26.722  INFO 17975 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-02 20:29:26.723  INFO 17975 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-02 20:29:26.723  INFO 17975 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 20:29:26.731  INFO 17975 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-02 20:29:26.731  INFO 17975 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 148 ms
+2020-04-02 20:29:26.766  WARN 17975 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+2020-04-02 20:29:26.766  INFO 17975 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2020-04-02 20:29:26.770  INFO 17975 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-02 20:29:26.770 ERROR 17975 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at hansol9.study.springboot.SpringbootApplication.main(SpringbootApplication.java:87) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:632) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:599) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:318) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:379) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:78) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:286) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:258) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:217) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:205) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:190) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	... 19 more
+
+2020-04-02 20:29:27.163  INFO 23375 --- [main] h.s.s.u.UserControllerTest               : Starting UserControllerTest on Hansol9ui-MacBookPro-2.local with PID 23375 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-02 20:29:27.171 DEBUG 23375 --- [main] h.s.s.u.UserControllerTest               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 20:29:27.172  INFO 23375 --- [main] h.s.s.u.UserControllerTest               : The following profiles are active: test
+2020-04-02 20:29:28.037  INFO 23375 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-02 20:29:28.038  INFO 23375 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-02 20:29:28.048  INFO 23375 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 10 ms
+2020-04-02 20:29:28.070  INFO 23375 --- [main] h.s.s.u.UserControllerTest               : Started UserControllerTest in 1.246 seconds (JVM running for 2.43)
+2020-04-02 20:30:03.074  INFO 23422 --- [main] h.s.s.u.UserControllerTest               : Starting UserControllerTest on Hansol9ui-MacBookPro-2.local with PID 23422 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-02 20:30:03.082 DEBUG 23422 --- [main] h.s.s.u.UserControllerTest               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 20:30:03.083  INFO 23422 --- [main] h.s.s.u.UserControllerTest               : The following profiles are active: test
+2020-04-02 20:30:03.956  INFO 23422 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-02 20:30:03.956  INFO 23422 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-02 20:30:03.967  INFO 23422 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 11 ms
+2020-04-02 20:30:03.990  INFO 23422 --- [main] h.s.s.u.UserControllerTest               : Started UserControllerTest in 1.257 seconds (JVM running for 2.301)
