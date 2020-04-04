@@ -3845,3 +3845,114 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2020-04-03 20:21:39.464  INFO 71232 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-03 20:21:39.465  INFO 71232 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
 2020-04-03 20:21:39.470  INFO 71232 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-04-03 20:31:25.134  INFO 71232 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:31:30.532  INFO 71974 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 71974 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 20:31:30.546 DEBUG 71974 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 20:31:30.547  INFO 71974 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 20:31:31.155  INFO 71974 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 20:31:31.168  INFO 71974 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 20:31:31.169  INFO 71974 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 20:31:31.246  INFO 71974 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 20:31:31.246  INFO 71974 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 672 ms
+2020-04-03 20:31:31.466  INFO 71974 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:31:31.501  WARN 71974 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+2020-04-03 20:31:31.502  INFO 71974 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:31:31.504  INFO 71974 --- [main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2020-04-03 20:31:31.514  INFO 71974 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-03 20:31:31.518 ERROR 71974 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at hansol9.study.springboot.SpringbootApplication.main(SpringbootApplication.java:87) [classes/:?]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:632) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:599) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:318) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:379) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:78) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:286) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:258) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:217) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:205) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:190) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	... 14 more
+
+2020-04-03 20:32:05.777  INFO 72036 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 72036 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 20:32:05.783 DEBUG 72036 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 20:32:05.783  INFO 72036 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 20:32:06.393  INFO 72036 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 20:32:06.406  INFO 72036 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 20:32:06.406  INFO 72036 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 20:32:06.470  INFO 72036 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 20:32:06.471  INFO 72036 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 657 ms
+2020-04-03 20:32:06.693  INFO 72036 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:32:06.883  INFO 72036 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 20:32:06.886  INFO 72036 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.408 seconds (JVM running for 2.057)
+2020-04-03 20:32:06.886 DEBUG 72036 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 20:32:06.886 DEBUG 72036 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 20:32:06.887 DEBUG 72036 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 20:32:06.887 DEBUG 72036 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 20:32:06.895 DEBUG 72036 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-03 20:32:06.895 DEBUG 72036 --- [main] h.s.s.ApplicationRunnerExample           : age: 95
+2020-04-03 20:32:06.895 DEBUG 72036 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 20:32:06.896 DEBUG 72036 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:32:06.896 DEBUG 72036 --- [main] h.s.s.ApplicationRunnerExample           : hello
+2020-04-03 20:32:06.897 DEBUG 72036 --- [main] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-03 20:32:06.897 DEBUG 72036 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:32:18.091  INFO 72036 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 20:32:18.092  INFO 72036 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 20:32:18.097  INFO 72036 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-04-03 20:35:31.750  INFO 72036 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:35:36.818  INFO 72290 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 72290 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 20:35:36.823 DEBUG 72290 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 20:35:36.824  INFO 72290 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 20:35:37.429  INFO 72290 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 20:35:37.442  INFO 72290 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 20:35:37.443  INFO 72290 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 20:35:37.509  INFO 72290 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 20:35:37.510  INFO 72290 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 660 ms
+2020-04-03 20:35:37.726  INFO 72290 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:35:38.138  INFO 72290 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 20:35:38.141  INFO 72290 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.629 seconds (JVM running for 2.482)
+2020-04-03 20:35:38.141 DEBUG 72290 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 20:35:38.141 DEBUG 72290 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 20:35:38.142 DEBUG 72290 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 20:35:38.142 DEBUG 72290 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 20:35:38.149 DEBUG 72290 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-03 20:35:38.150 DEBUG 72290 --- [main] h.s.s.ApplicationRunnerExample           : age: 2
+2020-04-03 20:35:38.150 DEBUG 72290 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 20:35:38.151 DEBUG 72290 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:35:38.151 DEBUG 72290 --- [main] h.s.s.ApplicationRunnerExample           : hello
+2020-04-03 20:35:38.152 DEBUG 72290 --- [main] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-03 20:35:38.152 DEBUG 72290 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:35:51.800  INFO 72290 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 20:35:51.801  INFO 72290 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 20:35:51.806  INFO 72290 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms

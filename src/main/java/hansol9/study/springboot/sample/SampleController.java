@@ -14,7 +14,7 @@ public class SampleController {
     @Autowired
     private SampleService sampleServie;
 
-    @GetMapping("/hello")
+    @GetMapping("/SampleHello")
     public String hello() {
         logger.info("holoman");
         System.out.println("skip");
