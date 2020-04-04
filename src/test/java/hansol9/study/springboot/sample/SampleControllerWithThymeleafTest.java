@@ -32,6 +32,7 @@ public class SampleControllerWithThymeleafTest {
                 .andExpect(status().isOk())
                 .andExpect(view().name("hello"))
                 .andExpect(model().attribute("name", is("hansol")))
+//                .andExpect(xpath("/h1").string("hansol"))
                 .andExpect(content().string(containsString("hansol")));
 
     }

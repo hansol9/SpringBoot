@@ -4125,3 +4125,85 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [hello
 2020-04-04 11:25:44.168  INFO 33450 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 8 ms
 2020-04-04 11:25:44.191  INFO 33450 --- [main] .s.s.s.SampleControllerWithThymeleafTest : Started SampleControllerWithThymeleafTest in 1.711 seconds (JVM running for 3.125)
 2020-04-04 11:25:44.849  INFO 33450 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 11:34:56.836  INFO 34074 --- [main] .s.s.s.SampleControllerWithThymeleafTest : Starting SampleControllerWithThymeleafTest on Hansol9ui-MacBookPro-2.local with PID 34074 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 11:34:56.842 DEBUG 34074 --- [main] .s.s.s.SampleControllerWithThymeleafTest : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 11:34:56.842  INFO 34074 --- [main] .s.s.s.SampleControllerWithThymeleafTest : The following profiles are active: prod,proddb
+2020-04-04 11:34:57.689  INFO 34074 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 11:34:57.769  INFO 34074 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 11:34:58.826  INFO 34074 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 11:34:58.826  INFO 34074 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 11:34:58.835  INFO 34074 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 9 ms
+2020-04-04 11:34:59.219  INFO 34074 --- [main] .s.s.s.SampleControllerWithThymeleafTest : Started SampleControllerWithThymeleafTest in 2.771 seconds (JVM running for 4.229)
+2020-04-04 11:34:59.943  INFO 34074 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 11:43:17.263  INFO 34634 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Starting SampleControllerWithHtmlUnit on Hansol9ui-MacBookPro-2.local with PID 34634 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 11:43:17.269 DEBUG 34634 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 11:43:17.270  INFO 34634 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : The following profiles are active: prod,proddb
+2020-04-04 11:43:18.050  INFO 34634 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 11:43:18.130  INFO 34634 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 11:43:18.843  INFO 34634 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 11:43:18.844  INFO 34634 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 11:43:18.852  INFO 34634 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 7 ms
+2020-04-04 11:43:19.224  INFO 34634 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Started SampleControllerWithHtmlUnit in 2.317 seconds (JVM running for 3.642)
+2020-04-04 11:43:19.595  INFO 34634 --- [main] c.g.h.WebClient                          : statusCode=[404] contentType=[]
+2020-04-04 11:43:19.599  INFO 34634 --- [main] c.g.h.WebClient                          : 
+2020-04-04 11:43:19.758  INFO 34634 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 11:44:12.665  INFO 34705 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Starting SampleControllerWithHtmlUnit on Hansol9ui-MacBookPro-2.local with PID 34705 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 11:44:12.670 DEBUG 34705 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 11:44:12.671  INFO 34705 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : The following profiles are active: prod,proddb
+2020-04-04 11:44:13.322  INFO 34705 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 11:44:13.391  INFO 34705 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 11:44:14.359  INFO 34705 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 11:44:14.359  INFO 34705 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 11:44:14.369  INFO 34705 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 10 ms
+2020-04-04 11:44:14.764  INFO 34705 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Started SampleControllerWithHtmlUnit in 2.454 seconds (JVM running for 3.43)
+2020-04-04 11:44:15.078  INFO 34705 --- [main] c.g.h.WebClient                          : statusCode=[404] contentType=[]
+2020-04-04 11:44:15.083  INFO 34705 --- [main] c.g.h.WebClient                          : 
+2020-04-04 11:44:15.215  INFO 34705 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 11:44:55.912  INFO 34756 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 34756 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 11:44:55.916 DEBUG 34756 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 11:44:55.916  INFO 34756 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-04 11:44:56.534  INFO 34756 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-04 11:44:56.544  INFO 34756 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-04 11:44:56.545  INFO 34756 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-04 11:44:56.611  INFO 34756 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-04 11:44:56.611  INFO 34756 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 673 ms
+2020-04-04 11:44:56.825  INFO 34756 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 11:44:56.859  INFO 34756 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 11:44:57.242  INFO 34756 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-04 11:44:57.244  INFO 34756 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.607 seconds (JVM running for 2.211)
+2020-04-04 11:44:57.245 DEBUG 34756 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-04 11:44:57.245 DEBUG 34756 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-04 11:44:57.245 DEBUG 34756 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-04 11:44:57.246 DEBUG 34756 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-04 11:44:57.253 DEBUG 34756 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-04 11:44:57.253 DEBUG 34756 --- [main] h.s.s.ApplicationRunnerExample           : age: 4
+2020-04-04 11:44:57.254 DEBUG 34756 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-04 11:44:57.254 DEBUG 34756 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-04 11:44:57.255 DEBUG 34756 --- [main] h.s.s.ApplicationRunnerExample           : hello
+2020-04-04 11:44:57.255 DEBUG 34756 --- [main] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-04 11:44:57.255 DEBUG 34756 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-04 11:45:10.652  INFO 34756 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-04 11:45:10.653  INFO 34756 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-04 11:45:10.659  INFO 34756 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2020-04-04 11:45:31.117  INFO 34805 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Starting SampleControllerWithHtmlUnit on Hansol9ui-MacBookPro-2.local with PID 34805 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 11:45:31.122 DEBUG 34805 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 11:45:31.123  INFO 34805 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : The following profiles are active: prod,proddb
+2020-04-04 11:45:31.839  INFO 34805 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 11:45:31.908  INFO 34805 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 11:45:32.927  INFO 34805 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 11:45:32.927  INFO 34805 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 11:45:32.936  INFO 34805 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 8 ms
+2020-04-04 11:45:33.368  INFO 34805 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Started SampleControllerWithHtmlUnit in 2.627 seconds (JVM running for 3.934)
+2020-04-04 11:45:33.706  INFO 34805 --- [main] c.g.h.WebClient                          : statusCode=[404] contentType=[]
+2020-04-04 11:45:33.711  INFO 34805 --- [main] c.g.h.WebClient                          : 
+2020-04-04 11:45:33.836  INFO 34805 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 12:08:09.295  INFO 36381 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Starting SampleControllerWithHtmlUnit on Hansol9ui-MacBookPro-2.local with PID 36381 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 12:08:09.301 DEBUG 36381 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 12:08:09.302  INFO 36381 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : The following profiles are active: prod,proddb
+2020-04-04 12:08:10.065  INFO 36381 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 12:08:10.136  INFO 36381 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 12:08:10.700  INFO 36381 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 12:08:10.700  INFO 36381 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 12:08:10.709  INFO 36381 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 8 ms
+2020-04-04 12:08:11.099  INFO 36381 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Started SampleControllerWithHtmlUnit in 2.178 seconds (JVM running for 3.562)
+2020-04-04 12:08:12.040  INFO 36381 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
