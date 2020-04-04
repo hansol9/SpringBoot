@@ -4207,3 +4207,111 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [hello
 2020-04-04 12:08:10.709  INFO 36381 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 8 ms
 2020-04-04 12:08:11.099  INFO 36381 --- [main] h.s.s.s.SampleControllerWithHtmlUnit     : Started SampleControllerWithHtmlUnit in 2.178 seconds (JVM running for 3.562)
 2020-04-04 12:08:12.040  INFO 36381 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 14:19:46.556  INFO 34756 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 14:19:49.592  INFO 39924 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 39924 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 14:19:49.597 DEBUG 39924 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 14:19:49.597  INFO 39924 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-04 14:19:50.232  INFO 39924 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-04 14:19:50.244  INFO 39924 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-04 14:19:50.244  INFO 39924 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-04 14:19:50.308  INFO 39924 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-04 14:19:50.308  INFO 39924 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 687 ms
+2020-04-04 14:19:50.523  INFO 39924 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 14:19:50.557  INFO 39924 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 14:19:50.973  INFO 39924 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-04 14:19:50.975  INFO 39924 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.662 seconds (JVM running for 2.27)
+2020-04-04 14:19:50.976 DEBUG 39924 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-04 14:19:50.976 DEBUG 39924 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-04 14:19:50.976 DEBUG 39924 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-04 14:19:50.976 DEBUG 39924 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-04 14:19:50.984 DEBUG 39924 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-04 14:19:50.985 DEBUG 39924 --- [main] h.s.s.ApplicationRunnerExample           : age: 1
+2020-04-04 14:19:50.985 DEBUG 39924 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-04 14:19:50.986 DEBUG 39924 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-04 14:19:50.986 DEBUG 39924 --- [main] h.s.s.ApplicationRunnerExample           : hello
+2020-04-04 14:19:50.987 DEBUG 39924 --- [main] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-04 14:19:50.987 DEBUG 39924 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-04 14:20:01.665  INFO 39924 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-04 14:20:01.665  INFO 39924 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-04 14:20:01.670  INFO 39924 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-04-04 14:29:57.194  INFO 39924 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 14:29:59.908  INFO 40606 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 40606 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 14:29:59.912 DEBUG 40606 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 14:29:59.913  INFO 40606 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-04 14:30:00.541  INFO 40606 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-04 14:30:00.556  INFO 40606 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-04 14:30:00.556  INFO 40606 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-04 14:30:00.624  INFO 40606 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-04 14:30:00.624  INFO 40606 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 688 ms
+2020-04-04 14:30:00.841  INFO 40606 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 14:30:00.876  INFO 40606 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 14:30:01.262  INFO 40606 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-04 14:30:01.264  INFO 40606 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.689 seconds (JVM running for 2.517)
+2020-04-04 14:30:01.265 DEBUG 40606 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-04 14:30:01.265 DEBUG 40606 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-04 14:30:01.265 DEBUG 40606 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-04 14:30:01.266 DEBUG 40606 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-04 14:30:01.273 DEBUG 40606 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-04 14:30:01.273 DEBUG 40606 --- [main] h.s.s.ApplicationRunnerExample           : age: 68
+2020-04-04 14:30:01.274 DEBUG 40606 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-04 14:30:01.274 DEBUG 40606 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-04 14:30:01.275 DEBUG 40606 --- [main] h.s.s.ApplicationRunnerExample           : hello
+2020-04-04 14:30:01.275 DEBUG 40606 --- [main] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-04 14:30:01.275 DEBUG 40606 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-04 14:30:10.417  INFO 40606 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-04 14:30:10.418  INFO 40606 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-04 14:30:10.423  INFO 40606 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-04-04 14:34:35.192  INFO 40606 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 14:34:37.700  INFO 40910 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 40910 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 14:34:37.704 DEBUG 40910 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 14:34:37.705  INFO 40910 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-04 14:34:38.316  INFO 40910 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-04 14:34:38.329  INFO 40910 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-04 14:34:38.330  INFO 40910 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-04 14:34:38.408  INFO 40910 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-04 14:34:38.408  INFO 40910 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 679 ms
+2020-04-04 14:34:38.631  INFO 40910 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 14:34:38.667  INFO 40910 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 14:34:39.084  INFO 40910 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-04 14:34:39.087  INFO 40910 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.683 seconds (JVM running for 2.532)
+2020-04-04 14:34:39.087 DEBUG 40910 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-04 14:34:39.087 DEBUG 40910 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-04 14:34:39.088 DEBUG 40910 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-04 14:34:39.088 DEBUG 40910 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-04 14:34:39.096 DEBUG 40910 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-04 14:34:39.096 DEBUG 40910 --- [main] h.s.s.ApplicationRunnerExample           : age: 48
+2020-04-04 14:34:39.097 DEBUG 40910 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-04 14:34:39.098 DEBUG 40910 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-04 14:34:39.098 DEBUG 40910 --- [main] h.s.s.ApplicationRunnerExample           : hello
+2020-04-04 14:34:39.098 DEBUG 40910 --- [main] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-04 14:34:39.098 DEBUG 40910 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-04 14:34:48.106  INFO 40910 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-04 14:34:48.107  INFO 40910 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-04 14:34:48.113  INFO 40910 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2020-04-04 14:35:12.172  INFO 40910 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 14:35:14.441  INFO 40969 --- [main] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 40969 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 14:35:14.445 DEBUG 40969 --- [main] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 14:35:14.446  INFO 40969 --- [main] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-04 14:35:15.064  INFO 40969 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-04 14:35:15.078  INFO 40969 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-04 14:35:15.079  INFO 40969 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-04 14:35:15.145  INFO 40969 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-04 14:35:15.145  INFO 40969 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 679 ms
+2020-04-04 14:35:15.358  INFO 40969 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 14:35:15.390  INFO 40969 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 14:35:15.760  INFO 40969 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-04 14:35:15.762  INFO 40969 --- [main] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.616 seconds (JVM running for 2.214)
+2020-04-04 14:35:15.763 DEBUG 40969 --- [main] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-04 14:35:15.763 DEBUG 40969 --- [main] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-04 14:35:15.763 DEBUG 40969 --- [main] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-04 14:35:15.764 DEBUG 40969 --- [main] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-04 14:35:15.771 DEBUG 40969 --- [main] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-04 14:35:15.771 DEBUG 40969 --- [main] h.s.s.ApplicationRunnerExample           : age: 70
+2020-04-04 14:35:15.772 DEBUG 40969 --- [main] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-04 14:35:15.773 DEBUG 40969 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-04 14:35:15.773 DEBUG 40969 --- [main] h.s.s.ApplicationRunnerExample           : hello
+2020-04-04 14:35:15.773 DEBUG 40969 --- [main] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-04 14:35:15.773 DEBUG 40969 --- [main] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-04 14:35:21.915  INFO 40969 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-04 14:35:21.915  INFO 40969 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-04 14:35:21.920  INFO 40969 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 4 ms
