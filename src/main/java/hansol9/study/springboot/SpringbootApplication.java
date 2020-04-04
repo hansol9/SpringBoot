@@ -28,7 +28,7 @@ import java.io.PrintStream;
 import java.io.PrintWriter;
 
 @SpringBootApplication
-@RestController
+//@RestController
 //@EnableConfigurationProperties(ExternalProperties.class)
 public class SpringbootApplication {
 
@@ -81,7 +81,7 @@ public class SpringbootApplication {
             }
         });
         */
-//        application.setBannerMode(Banner.Mode.OFF);
+        application.setBannerMode(Banner.Mode.OFF);
         application.addListeners(new SampleListener());
         application.setWebApplicationType(WebApplicationType.SERVLET);
         application.run(args);

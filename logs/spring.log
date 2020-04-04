@@ -3167,3 +3167,681 @@ hansol9.study.springboot.sample.SampleController#hello() mapped.
 2020-04-02 20:30:03.956  INFO 23422 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
 2020-04-02 20:30:03.967  INFO 23422 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 11 ms
 2020-04-02 20:30:03.990  INFO 23422 --- [main] h.s.s.u.UserControllerTest               : Started UserControllerTest in 1.257 seconds (JVM running for 2.301)
+2020-04-03 18:35:39.026  INFO 65166 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 65166 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 18:35:39.031 DEBUG 65166 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 18:35:39.032  INFO 65166 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-03 18:35:39.066  INFO 65166 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 18:35:39.067  INFO 65166 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 18:35:39.892  INFO 65166 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 18:35:39.906  INFO 65166 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 18:35:39.906  INFO 65166 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 18:35:39.962  INFO 65166 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 18:35:39.962  INFO 65166 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 895 ms
+2020-04-03 18:35:40.125  WARN 65166 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+2020-04-03 18:35:40.127  INFO 65166 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2020-04-03 18:35:40.137  INFO 65166 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-03 18:35:40.141 ERROR 65166 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at hansol9.study.springboot.SpringbootApplication.main(SpringbootApplication.java:87) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:632) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:599) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:318) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:379) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:78) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:286) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:258) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:217) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:205) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:190) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	... 19 more
+
+2020-04-03 18:36:28.290  INFO 65230 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 65230 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 18:36:28.294 DEBUG 65230 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 18:36:28.295  INFO 65230 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-03 18:36:28.326  INFO 65230 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 18:36:28.327  INFO 65230 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 18:36:29.051  INFO 65230 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 18:36:29.071  INFO 65230 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 18:36:29.072  INFO 65230 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 18:36:29.146  INFO 65230 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 18:36:29.146  INFO 65230 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 819 ms
+2020-04-03 18:36:29.324  WARN 65230 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+2020-04-03 18:36:29.326  INFO 65230 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2020-04-03 18:36:29.336  INFO 65230 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-03 18:36:29.340 ERROR 65230 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at hansol9.study.springboot.SpringbootApplication.main(SpringbootApplication.java:87) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:632) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:599) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:318) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:379) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:78) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:286) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:258) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:217) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:205) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:190) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	... 19 more
+
+2020-04-03 18:37:44.252  INFO 65324 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 65324 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 18:37:44.256 DEBUG 65324 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 18:37:44.257  INFO 65324 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-03 18:37:44.282  INFO 65324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 18:37:44.283  INFO 65324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 18:37:44.931  INFO 65324 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 18:37:44.946  INFO 65324 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 18:37:44.946  INFO 65324 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 18:37:45.002  INFO 65324 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 18:37:45.002  INFO 65324 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 719 ms
+2020-04-03 18:37:45.397  INFO 65324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 18:37:45.434  INFO 65324 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 18:37:45.437  INFO 65324 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.483 seconds (JVM running for 2.428)
+2020-04-03 18:37:45.438 DEBUG 65324 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 18:37:45.438 DEBUG 65324 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 18:37:45.438 DEBUG 65324 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 18:37:45.438 DEBUG 65324 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 18:37:45.447 DEBUG 65324 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-03 18:37:45.447 DEBUG 65324 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 17
+2020-04-03 18:37:45.448 DEBUG 65324 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 18:37:45.449 DEBUG 65324 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:37:45.449 DEBUG 65324 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-03 18:37:45.449 DEBUG 65324 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-03 18:37:45.449 DEBUG 65324 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:37:57.603  INFO 65324 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 18:37:57.603  INFO 65324 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 18:37:57.609  INFO 65324 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-04-03 18:37:57.623  INFO 65324 --- [http-nio-8080-exec-1] h.s.s.s.SampleController                 : holoman
+2020-04-03 18:37:59.700  INFO 65324 --- [http-nio-8080-exec-2] h.s.s.s.SampleController                 : holoman
+2020-04-03 18:39:14.553  INFO 65324 --- [http-nio-8080-exec-6] h.s.s.s.SampleController                 : holoman
+2020-04-03 18:40:04.529  WARN 65324 --- [http-nio-8080-exec-1] o.s.w.s.PageNotFound                     : No mapping for GET /hello2.html
+2020-04-03 18:41:46.318  INFO 65635 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 65635 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 18:41:46.323 DEBUG 65635 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 18:41:46.323  INFO 65635 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-03 18:41:46.351  INFO 65635 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 18:41:46.351  INFO 65635 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 18:41:47.017  INFO 65635 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 18:41:47.030  INFO 65635 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 18:41:47.030  INFO 65635 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 18:41:47.087  INFO 65635 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 18:41:47.087  INFO 65635 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 735 ms
+2020-04-03 18:41:47.478  INFO 65635 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 18:41:47.517  INFO 65635 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 18:41:47.520  INFO 65635 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.5 seconds (JVM running for 2.192)
+2020-04-03 18:41:47.521 DEBUG 65635 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 18:41:47.521 DEBUG 65635 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 18:41:47.521 DEBUG 65635 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 18:41:47.521 DEBUG 65635 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 18:41:47.529 DEBUG 65635 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-03 18:41:47.530 DEBUG 65635 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 87
+2020-04-03 18:41:47.530 DEBUG 65635 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 18:41:47.532 DEBUG 65635 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:41:47.532 DEBUG 65635 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-03 18:41:47.532 DEBUG 65635 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-03 18:41:47.532 DEBUG 65635 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:41:54.028  INFO 65635 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 18:41:54.029  INFO 65635 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 18:41:54.034  INFO 65635 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-04-03 18:41:54.043  WARN 65635 --- [http-nio-8080-exec-1] o.s.w.s.PageNotFound                     : No mapping for GET /hello2.html
+2020-04-03 18:41:59.520  INFO 65635 --- [http-nio-8080-exec-2] h.s.s.s.SampleController                 : holoman
+2020-04-03 18:43:07.736  INFO 65738 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 65738 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 18:43:07.741 DEBUG 65738 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 18:43:07.742  INFO 65738 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-03 18:43:07.777  INFO 65738 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 18:43:07.778  INFO 65738 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 18:43:08.385  INFO 65738 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 18:43:08.397  INFO 65738 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 18:43:08.397  INFO 65738 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 18:43:08.448  INFO 65738 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 18:43:08.448  INFO 65738 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 670 ms
+2020-04-03 18:43:08.815  INFO 65738 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 18:43:08.849  INFO 65738 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 18:43:08.852  INFO 65738 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.446 seconds (JVM running for 2.348)
+2020-04-03 18:43:08.853 DEBUG 65738 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 18:43:08.853 DEBUG 65738 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 18:43:08.853 DEBUG 65738 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 18:43:08.853 DEBUG 65738 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 18:43:08.861 DEBUG 65738 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-03 18:43:08.861 DEBUG 65738 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 65
+2020-04-03 18:43:08.862 DEBUG 65738 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 18:43:08.863 DEBUG 65738 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:43:08.863 DEBUG 65738 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-03 18:43:08.863 DEBUG 65738 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-03 18:43:08.863 DEBUG 65738 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:43:17.800  INFO 65738 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 18:43:17.801  INFO 65738 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 18:43:17.807  INFO 65738 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2020-04-03 18:43:17.820  INFO 65738 --- [http-nio-8080-exec-1] h.s.s.s.SampleController                 : holoman
+2020-04-03 18:46:12.282  INFO 65957 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 65957 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 18:46:12.287 DEBUG 65957 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 18:46:12.288  INFO 65957 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-03 18:46:12.317  INFO 65957 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 18:46:12.317  INFO 65957 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 18:46:12.961  INFO 65957 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 18:46:12.975  INFO 65957 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 18:46:12.975  INFO 65957 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 18:46:13.030  INFO 65957 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 18:46:13.030  INFO 65957 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 712 ms
+2020-04-03 18:46:13.424  INFO 65957 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 18:46:13.462  INFO 65957 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 18:46:13.465  INFO 65957 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.505 seconds (JVM running for 2.408)
+2020-04-03 18:46:13.466 DEBUG 65957 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 18:46:13.466 DEBUG 65957 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 18:46:13.466 DEBUG 65957 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 18:46:13.467 DEBUG 65957 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 18:46:13.477 DEBUG 65957 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-03 18:46:13.477 DEBUG 65957 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 41
+2020-04-03 18:46:13.478 DEBUG 65957 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 18:46:13.479 DEBUG 65957 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:46:13.479 DEBUG 65957 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-03 18:46:13.480 DEBUG 65957 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-03 18:46:13.480 DEBUG 65957 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:46:28.529  INFO 65957 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 18:46:28.530  INFO 65957 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 18:46:28.536  INFO 65957 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2020-04-03 18:46:28.551  INFO 65957 --- [http-nio-8080-exec-1] h.s.s.s.SampleController                 : holoman
+2020-04-03 18:47:27.743  INFO 66052 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 66052 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 18:47:27.748 DEBUG 66052 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 18:47:27.748  INFO 66052 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-03 18:47:27.777  INFO 66052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 18:47:27.777  INFO 66052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 18:47:28.408  INFO 66052 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 18:47:28.421  INFO 66052 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 18:47:28.422  INFO 66052 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 18:47:28.478  INFO 66052 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 18:47:28.478  INFO 66052 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 701 ms
+2020-04-03 18:47:28.629  WARN 66052 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /users/hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+2020-04-03 18:47:28.631  INFO 66052 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2020-04-03 18:47:28.640  INFO 66052 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-03 18:47:28.644 ERROR 66052 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /users/hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at hansol9.study.springboot.SpringbootApplication.main(SpringbootApplication.java:73) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+hansol9.study.springboot.user.UserController#hello()
+to {GET /users/hello}: There is already 'sampleController' bean method
+hansol9.study.springboot.sample.SampleController#hello() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:632) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:599) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:318) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:379) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:78) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:286) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:258) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:217) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:205) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:190) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	... 21 more
+
+2020-04-03 18:47:44.699  INFO 66074 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 66074 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 18:47:44.704 DEBUG 66074 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 18:47:44.704  INFO 66074 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-03 18:47:44.732  INFO 66074 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 18:47:44.732  INFO 66074 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 18:47:45.369  INFO 66074 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 18:47:45.382  INFO 66074 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 18:47:45.383  INFO 66074 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 18:47:45.438  INFO 66074 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 18:47:45.439  INFO 66074 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 706 ms
+2020-04-03 18:47:45.837  INFO 66074 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 18:47:45.873  INFO 66074 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 18:47:45.876  INFO 66074 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.473 seconds (JVM running for 2.132)
+2020-04-03 18:47:45.877 DEBUG 66074 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 18:47:45.877 DEBUG 66074 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 18:47:45.877 DEBUG 66074 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 18:47:45.877 DEBUG 66074 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 18:47:45.885 DEBUG 66074 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-03 18:47:45.886 DEBUG 66074 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 63
+2020-04-03 18:47:45.886 DEBUG 66074 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 18:47:45.887 DEBUG 66074 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:47:45.887 DEBUG 66074 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-03 18:47:45.888 DEBUG 66074 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-03 18:47:45.888 DEBUG 66074 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:47:56.423  INFO 66074 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 18:47:56.424  INFO 66074 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 18:47:56.429  INFO 66074 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-04-03 18:47:56.439  WARN 66074 --- [http-nio-8080-exec-1] o.s.w.s.PageNotFound                     : No mapping for GET /hello.html
+2020-04-03 18:54:00.294  INFO 66573 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 66573 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 18:54:00.300 DEBUG 66573 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 18:54:00.300  INFO 66573 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-03 18:54:00.332  INFO 66573 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 18:54:00.332  INFO 66573 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 18:54:01.010  INFO 66573 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 18:54:01.025  INFO 66573 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 18:54:01.025  INFO 66573 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 18:54:01.080  INFO 66573 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 18:54:01.080  INFO 66573 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 747 ms
+2020-04-03 18:54:01.462  INFO 66573 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 18:54:01.505  INFO 66573 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 18:54:01.508  INFO 66573 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.557 seconds (JVM running for 2.247)
+2020-04-03 18:54:01.508 DEBUG 66573 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 18:54:01.509 DEBUG 66573 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 18:54:01.509 DEBUG 66573 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 18:54:01.509 DEBUG 66573 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 18:54:01.517 DEBUG 66573 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-03 18:54:01.518 DEBUG 66573 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 70
+2020-04-03 18:54:01.518 DEBUG 66573 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 18:54:01.519 DEBUG 66573 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:54:01.519 DEBUG 66573 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-03 18:54:01.520 DEBUG 66573 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-03 18:54:01.520 DEBUG 66573 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 18:54:07.822  INFO 66573 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 18:54:07.823  INFO 66573 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 18:54:07.828  INFO 66573 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-04-03 18:54:07.837  WARN 66573 --- [http-nio-8080-exec-1] o.s.w.s.PageNotFound                     : No mapping for GET /hello.html
+2020-04-03 19:01:03.132  INFO 67058 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 67058 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 19:01:03.137 DEBUG 67058 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 19:01:03.138  INFO 67058 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: test
+2020-04-03 19:01:03.166  INFO 67058 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 19:01:03.167  INFO 67058 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 19:01:03.801  INFO 67058 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 19:01:03.814  INFO 67058 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 19:01:03.814  INFO 67058 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 19:01:03.866  INFO 67058 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 19:01:03.866  INFO 67058 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 699 ms
+2020-04-03 19:01:04.241  INFO 67058 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 19:01:04.278  INFO 67058 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 19:01:04.281  INFO 67058 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.458 seconds (JVM running for 2.331)
+2020-04-03 19:01:04.282 DEBUG 67058 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 19:01:04.282 DEBUG 67058 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 19:01:04.282 DEBUG 67058 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 19:01:04.283 DEBUG 67058 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 19:01:04.291 DEBUG 67058 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for TEST
+2020-04-03 19:01:04.291 DEBUG 67058 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 96
+2020-04-03 19:01:04.292 DEBUG 67058 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 19:01:04.292 DEBUG 67058 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:01:04.293 DEBUG 67058 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello DEV
+2020-04-03 19:01:04.293 DEBUG 67058 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for TEST Places
+2020-04-03 19:01:04.293 DEBUG 67058 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:01:12.726  INFO 67058 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 19:01:12.726  INFO 67058 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 19:01:12.731  INFO 67058 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-04-03 19:01:12.740  WARN 67058 --- [http-nio-8080-exec-1] o.s.w.s.PageNotFound                     : No mapping for GET /hello.html
+2020-04-03 19:03:22.096  INFO 67213 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 67213 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 19:03:22.100 DEBUG 67213 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 19:03:22.101  INFO 67213 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 19:03:22.128  INFO 67213 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 19:03:22.128  INFO 67213 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 19:03:22.740  INFO 67213 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 19:03:22.754  INFO 67213 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 19:03:22.754  INFO 67213 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 19:03:22.809  INFO 67213 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 19:03:22.809  INFO 67213 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 681 ms
+2020-04-03 19:03:23.181  INFO 67213 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 19:03:23.215  INFO 67213 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 19:03:23.217  INFO 67213 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.44 seconds (JVM running for 2.299)
+2020-04-03 19:03:23.218 DEBUG 67213 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 19:03:23.218 DEBUG 67213 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 19:03:23.219 DEBUG 67213 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 19:03:23.219 DEBUG 67213 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 19:03:23.226 DEBUG 67213 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-03 19:03:23.227 DEBUG 67213 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 71
+2020-04-03 19:03:23.227 DEBUG 67213 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 19:03:23.228 DEBUG 67213 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:03:23.228 DEBUG 67213 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello
+2020-04-03 19:03:23.229 DEBUG 67213 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-03 19:03:23.229 DEBUG 67213 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:03:30.623  INFO 67213 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 19:03:30.624  INFO 67213 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 19:03:30.630  INFO 67213 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2020-04-03 19:03:30.640  WARN 67213 --- [http-nio-8080-exec-1] o.s.w.s.PageNotFound                     : No mapping for GET /hello.html
+2020-04-03 19:06:03.319  INFO 67403 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 67403 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 19:06:03.323 DEBUG 67403 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 19:06:03.324  INFO 67403 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 19:06:03.350  INFO 67403 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 19:06:03.350  INFO 67403 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 19:06:03.993  INFO 67403 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 19:06:04.007  INFO 67403 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 19:06:04.007  INFO 67403 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 19:06:04.065  INFO 67403 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 19:06:04.065  INFO 67403 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 715 ms
+2020-04-03 19:06:04.450  INFO 67403 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 19:06:04.487  INFO 67403 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 19:06:04.489  INFO 67403 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.473 seconds (JVM running for 2.304)
+2020-04-03 19:06:04.490 DEBUG 67403 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 19:06:04.490 DEBUG 67403 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 19:06:04.491 DEBUG 67403 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 19:06:04.491 DEBUG 67403 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 19:06:04.500 DEBUG 67403 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-03 19:06:04.501 DEBUG 67403 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 82
+2020-04-03 19:06:04.501 DEBUG 67403 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 19:06:04.502 DEBUG 67403 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:06:04.502 DEBUG 67403 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello
+2020-04-03 19:06:04.503 DEBUG 67403 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-03 19:06:04.503 DEBUG 67403 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:06:09.182  INFO 67403 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 19:06:09.188  INFO 67403 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 19:06:09.194  INFO 67403 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2020-04-03 19:06:09.202  WARN 67403 --- [http-nio-8080-exec-1] o.s.w.s.PageNotFound                     : No mapping for GET /hello.html
+2020-04-03 19:11:12.095  INFO 67790 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 67790 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 19:11:12.099 DEBUG 67790 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 19:11:12.099  INFO 67790 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 19:11:12.126  INFO 67790 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 19:11:12.126  INFO 67790 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 19:11:12.806  INFO 67790 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 19:11:12.820  INFO 67790 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 19:11:12.821  INFO 67790 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 19:11:12.883  INFO 67790 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 19:11:12.883  INFO 67790 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 757 ms
+2020-04-03 19:11:13.277  INFO 67790 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 19:11:13.306  INFO 67790 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2020-04-03 19:11:13.313  INFO 67790 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-03 19:11:13.317 ERROR 67790 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-04-03 19:11:37.397  INFO 67821 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 67821 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 19:11:37.402 DEBUG 67821 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 19:11:37.402  INFO 67821 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 19:11:37.431  INFO 67821 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 19:11:37.432  INFO 67821 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 19:11:38.092  INFO 67821 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 19:11:38.107  INFO 67821 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 19:11:38.107  INFO 67821 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 19:11:38.164  INFO 67821 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 19:11:38.165  INFO 67821 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 733 ms
+2020-04-03 19:11:38.564  INFO 67821 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 19:11:38.602  INFO 67821 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 19:11:38.604  INFO 67821 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.485 seconds (JVM running for 2.073)
+2020-04-03 19:11:38.605 DEBUG 67821 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 19:11:38.606 DEBUG 67821 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 19:11:38.606 DEBUG 67821 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 19:11:38.606 DEBUG 67821 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 19:11:38.614 DEBUG 67821 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-03 19:11:38.615 DEBUG 67821 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 38
+2020-04-03 19:11:38.615 DEBUG 67821 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 19:11:38.616 DEBUG 67821 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:11:38.616 DEBUG 67821 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello
+2020-04-03 19:11:38.617 DEBUG 67821 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-03 19:11:38.617 DEBUG 67821 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:11:49.868  INFO 67821 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 19:11:49.868  INFO 67821 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 19:11:49.875  INFO 67821 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 7 ms
+2020-04-03 19:11:49.884  WARN 67821 --- [http-nio-8080-exec-1] o.s.w.s.PageNotFound                     : No mapping for GET /hello.html
+2020-04-03 19:25:23.196  INFO 68808 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 68808 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 19:25:23.201 DEBUG 68808 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 19:25:23.202  INFO 68808 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 19:25:23.231  INFO 68808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 19:25:23.232  INFO 68808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 19:25:23.923  INFO 68808 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 19:25:23.936  INFO 68808 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 19:25:23.937  INFO 68808 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 19:25:23.997  INFO 68808 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 19:25:23.997  INFO 68808 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 765 ms
+2020-04-03 19:25:24.391  INFO 68808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 19:25:24.430  INFO 68808 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 19:25:24.432  INFO 68808 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.536 seconds (JVM running for 2.463)
+2020-04-03 19:25:24.433 DEBUG 68808 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 19:25:24.433 DEBUG 68808 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 19:25:24.434 DEBUG 68808 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 19:25:24.434 DEBUG 68808 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 19:25:24.442 DEBUG 68808 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-03 19:25:24.443 DEBUG 68808 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 67
+2020-04-03 19:25:24.443 DEBUG 68808 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 19:25:24.444 DEBUG 68808 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:25:24.444 DEBUG 68808 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello
+2020-04-03 19:25:24.444 DEBUG 68808 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-03 19:25:24.444 DEBUG 68808 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:25:41.042  INFO 68808 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 19:25:41.042  INFO 68808 --- [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 19:25:41.048  INFO 68808 --- [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2020-04-03 19:25:41.057  WARN 68808 --- [http-nio-8080-exec-3] o.s.w.s.PageNotFound                     : No mapping for GET /resources/hello.html
+2020-04-03 19:27:10.327  INFO 68955 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 68955 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 19:27:10.331 DEBUG 68955 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 19:27:10.332  INFO 68955 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 19:27:10.361  INFO 68955 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 19:27:10.361  INFO 68955 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 19:27:11.047  INFO 68955 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 19:27:11.062  INFO 68955 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 19:27:11.063  INFO 68955 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 19:27:11.128  INFO 68955 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 19:27:11.128  INFO 68955 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 767 ms
+2020-04-03 19:27:11.373  INFO 68955 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 19:27:11.587  INFO 68955 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 19:27:11.627  INFO 68955 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 19:27:11.630  INFO 68955 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.599 seconds (JVM running for 2.263)
+2020-04-03 19:27:11.631 DEBUG 68955 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 19:27:11.631 DEBUG 68955 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 19:27:11.632 DEBUG 68955 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 19:27:11.632 DEBUG 68955 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 19:27:11.640 DEBUG 68955 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-03 19:27:11.641 DEBUG 68955 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 8
+2020-04-03 19:27:11.642 DEBUG 68955 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 19:27:11.643 DEBUG 68955 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:27:11.643 DEBUG 68955 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello
+2020-04-03 19:27:11.643 DEBUG 68955 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-03 19:27:11.643 DEBUG 68955 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 19:27:22.247  INFO 68955 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 19:27:22.248  INFO 68955 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 19:27:22.254  INFO 68955 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-04-03 20:17:56.500  INFO 68955 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:18:01.752  INFO 70958 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 70958 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 20:18:01.756 DEBUG 70958 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 20:18:01.756  INFO 70958 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 20:18:01.782  INFO 70958 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 20:18:01.783  INFO 70958 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 20:18:02.480  INFO 70958 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 20:18:02.497  INFO 70958 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 20:18:02.497  INFO 70958 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 20:18:02.555  INFO 70958 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 20:18:02.555  INFO 70958 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 772 ms
+2020-04-03 20:18:02.795  INFO 70958 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:18:02.987  INFO 70958 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 20:18:03.027  INFO 70958 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 20:18:03.030  INFO 70958 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.628 seconds (JVM running for 2.466)
+2020-04-03 20:18:03.031 DEBUG 70958 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 20:18:03.031 DEBUG 70958 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 20:18:03.031 DEBUG 70958 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 20:18:03.032 DEBUG 70958 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 20:18:03.040 DEBUG 70958 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-03 20:18:03.041 DEBUG 70958 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 20
+2020-04-03 20:18:03.041 DEBUG 70958 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 20:18:03.042 DEBUG 70958 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:18:03.043 DEBUG 70958 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello
+2020-04-03 20:18:03.043 DEBUG 70958 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-03 20:18:03.043 DEBUG 70958 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:18:14.371  INFO 70958 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 20:18:14.372  INFO 70958 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 20:18:14.376  INFO 70958 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 4 ms
+2020-04-03 20:18:48.617  WARN 70958 --- [http-nio-8080-exec-5] o.s.w.s.PageNotFound                     : No mapping for GET /m/hello.html
+2020-04-03 20:18:55.585  WARN 70958 --- [http-nio-8080-exec-7] o.s.w.s.PageNotFound                     : No mapping for GET /m/hello.html
+2020-04-03 20:19:50.199  INFO 70958 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:19:53.779  INFO 71100 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 71100 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 20:19:53.783 DEBUG 71100 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 20:19:53.784  INFO 71100 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 20:19:53.812  INFO 71100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 20:19:53.812  INFO 71100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 20:19:54.424  INFO 71100 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 20:19:54.437  INFO 71100 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 20:19:54.438  INFO 71100 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 20:19:54.493  INFO 71100 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 20:19:54.493  INFO 71100 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 681 ms
+2020-04-03 20:19:54.705  INFO 71100 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:19:54.886  INFO 71100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 20:19:54.923  INFO 71100 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 20:19:54.926  INFO 71100 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.447 seconds (JVM running for 2.099)
+2020-04-03 20:19:54.927 DEBUG 71100 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 20:19:54.927 DEBUG 71100 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 20:19:54.927 DEBUG 71100 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 20:19:54.928 DEBUG 71100 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 20:19:54.936 DEBUG 71100 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-03 20:19:54.937 DEBUG 71100 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 24
+2020-04-03 20:19:54.937 DEBUG 71100 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 20:19:54.938 DEBUG 71100 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:19:54.938 DEBUG 71100 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello
+2020-04-03 20:19:54.939 DEBUG 71100 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-03 20:19:54.939 DEBUG 71100 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:20:38.911  INFO 71100 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:20:42.317  INFO 71163 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 71163 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 20:20:42.321 DEBUG 71163 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 20:20:42.322  INFO 71163 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 20:20:42.347  INFO 71163 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 20:20:42.347  INFO 71163 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 20:20:42.991  INFO 71163 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 20:20:43.005  INFO 71163 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 20:20:43.005  INFO 71163 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 20:20:43.062  INFO 71163 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 20:20:43.062  INFO 71163 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 715 ms
+2020-04-03 20:20:43.278  INFO 71163 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:20:43.470  INFO 71163 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 20:20:43.508  INFO 71163 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 20:20:43.510  INFO 71163 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.502 seconds (JVM running for 2.393)
+2020-04-03 20:20:43.511 DEBUG 71163 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 20:20:43.511 DEBUG 71163 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 20:20:43.512 DEBUG 71163 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 20:20:43.512 DEBUG 71163 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 20:20:43.520 DEBUG 71163 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-03 20:20:43.520 DEBUG 71163 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 34
+2020-04-03 20:20:43.521 DEBUG 71163 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 20:20:43.522 DEBUG 71163 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:20:43.522 DEBUG 71163 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello
+2020-04-03 20:20:43.522 DEBUG 71163 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-03 20:20:43.522 DEBUG 71163 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:21:02.299  INFO 71163 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 20:21:02.300  INFO 71163 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 20:21:02.305  INFO 71163 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-04-03 20:21:27.173  INFO 71163 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:21:30.459  INFO 71232 --- [restartedMain] h.s.s.SpringbootApplication              : Starting SpringbootApplication on Hansol9ui-MacBookPro-2.local with PID 71232 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-03 20:21:30.464 DEBUG 71232 --- [restartedMain] h.s.s.SpringbootApplication              : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-03 20:21:30.464  INFO 71232 --- [restartedMain] h.s.s.SpringbootApplication              : The following profiles are active: prod,proddb
+2020-04-03 20:21:30.495  INFO 71232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 20:21:30.496  INFO 71232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 20:21:31.149  INFO 71232 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-04-03 20:21:31.163  INFO 71232 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-03 20:21:31.164  INFO 71232 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 20:21:31.220  INFO 71232 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-03 20:21:31.221  INFO 71232 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 725 ms
+2020-04-03 20:21:31.446  INFO 71232 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 20:21:31.629  INFO 71232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-03 20:21:31.667  INFO 71232 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 20:21:31.669  INFO 71232 --- [restartedMain] h.s.s.SpringbootApplication              : Started SpringbootApplication in 1.544 seconds (JVM running for 2.255)
+2020-04-03 20:21:31.670 DEBUG 71232 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ===================================
+2020-04-03 20:21:31.670 DEBUG 71232 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Application Runner!!!
+2020-04-03 20:21:31.671 DEBUG 71232 --- [restartedMain] h.s.s.ApplicationRunnerExample           : foo: false
+2020-04-03 20:21:31.671 DEBUG 71232 --- [restartedMain] h.s.s.ApplicationRunnerExample           : bar: true
+2020-04-03 20:21:31.679 DEBUG 71232 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Properties: holoman for PROD
+2020-04-03 20:21:31.679 DEBUG 71232 --- [restartedMain] h.s.s.ApplicationRunnerExample           : age: 41
+2020-04-03 20:21:31.680 DEBUG 71232 --- [restartedMain] h.s.s.ApplicationRunnerExample           : Session Timeout: PT25S
+2020-04-03 20:21:31.681 DEBUG 71232 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:21:31.681 DEBUG 71232 --- [restartedMain] h.s.s.ApplicationRunnerExample           : hello
+2020-04-03 20:21:31.681 DEBUG 71232 --- [restartedMain] h.s.s.ApplicationRunnerExample           : holoman for PROD Includes!!!
+2020-04-03 20:21:31.681 DEBUG 71232 --- [restartedMain] h.s.s.ApplicationRunnerExample           : ============================
+2020-04-03 20:21:39.464  INFO 71232 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 20:21:39.465  INFO 71232 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-03 20:21:39.470  INFO 71232 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
