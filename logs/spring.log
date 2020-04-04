@@ -4315,3 +4315,103 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [hello
 2020-04-04 14:35:21.915  INFO 40969 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-04 14:35:21.915  INFO 40969 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
 2020-04-04 14:35:21.920  INFO 40969 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 4 ms
+2020-04-04 14:59:05.433  INFO 42590 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Starting SampleControllerHATEOASTest on Hansol9ui-MacBookPro-2.local with PID 42590 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 14:59:05.440 DEBUG 42590 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 14:59:05.441  INFO 42590 --- [main] h.s.s.s.SampleControllerHATEOASTest      : The following profiles are active: prod,proddb
+2020-04-04 14:59:06.365  INFO 42590 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 14:59:06.444  INFO 42590 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 14:59:07.498  INFO 42590 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 14:59:07.498  INFO 42590 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 14:59:07.515  INFO 42590 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 16 ms
+2020-04-04 14:59:07.900  INFO 42590 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Started SampleControllerHATEOASTest in 2.829 seconds (JVM running for 4.203)
+2020-04-04 14:59:08.339  INFO 42590 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:08:25.598  INFO 43222 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Starting SampleControllerHATEOASTest on Hansol9ui-MacBookPro-2.local with PID 43222 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 15:08:25.604 DEBUG 43222 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 15:08:25.605  INFO 43222 --- [main] h.s.s.s.SampleControllerHATEOASTest      : The following profiles are active: prod,proddb
+2020-04-04 15:08:26.444  INFO 43222 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:08:26.522  INFO 43222 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 15:08:27.503  INFO 43222 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 15:08:27.503  INFO 43222 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 15:08:27.512  INFO 43222 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 9 ms
+2020-04-04 15:08:27.969  INFO 43222 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Started SampleControllerHATEOASTest in 2.762 seconds (JVM running for 4.065)
+2020-04-04 15:08:28.444  INFO 43222 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:09:03.789  INFO 43274 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Starting SampleControllerHATEOASTest on Hansol9ui-MacBookPro-2.local with PID 43274 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 15:09:03.794 DEBUG 43274 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 15:09:03.795  INFO 43274 --- [main] h.s.s.s.SampleControllerHATEOASTest      : The following profiles are active: prod,proddb
+2020-04-04 15:09:04.556  INFO 43274 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:09:04.629  INFO 43274 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 15:09:05.103  INFO 43274 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 15:09:05.104  INFO 43274 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 15:09:05.111  INFO 43274 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 7 ms
+2020-04-04 15:09:05.469  INFO 43274 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Started SampleControllerHATEOASTest in 2.051 seconds (JVM running for 3.057)
+2020-04-04 15:09:05.820  INFO 43274 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:09:24.578  INFO 43299 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Starting SampleControllerHATEOASTest on Hansol9ui-MacBookPro-2.local with PID 43299 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 15:09:24.583 DEBUG 43299 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 15:09:24.583  INFO 43299 --- [main] h.s.s.s.SampleControllerHATEOASTest      : The following profiles are active: prod,proddb
+2020-04-04 15:09:25.322  INFO 43299 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:09:25.392  INFO 43299 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 15:09:25.861  INFO 43299 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 15:09:25.861  INFO 43299 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 15:09:25.869  INFO 43299 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 8 ms
+2020-04-04 15:09:26.219  INFO 43299 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Started SampleControllerHATEOASTest in 2.006 seconds (JVM running for 3.008)
+2020-04-04 15:09:26.566  INFO 43299 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:10:10.108  INFO 43351 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Starting SampleControllerHATEOASTest on Hansol9ui-MacBookPro-2.local with PID 43351 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 15:10:10.113 DEBUG 43351 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 15:10:10.114  INFO 43351 --- [main] h.s.s.s.SampleControllerHATEOASTest      : The following profiles are active: prod,proddb
+2020-04-04 15:10:10.862  INFO 43351 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:10:10.930  INFO 43351 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 15:10:11.890  INFO 43351 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 15:10:11.890  INFO 43351 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 15:10:11.899  INFO 43351 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 8 ms
+2020-04-04 15:10:12.287  INFO 43351 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Started SampleControllerHATEOASTest in 2.543 seconds (JVM running for 3.538)
+2020-04-04 15:10:12.700  INFO 43351 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:12:36.975  INFO 43559 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Starting SampleControllerHATEOASTest on Hansol9ui-MacBookPro-2.local with PID 43559 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 15:12:36.980 DEBUG 43559 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 15:12:36.981  INFO 43559 --- [main] h.s.s.s.SampleControllerHATEOASTest      : The following profiles are active: prod,proddb
+2020-04-04 15:12:37.775  INFO 43559 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:12:37.856  INFO 43559 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 15:12:38.397  INFO 43559 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 15:12:38.397  INFO 43559 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 15:12:38.404  INFO 43559 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 7 ms
+2020-04-04 15:12:38.859  INFO 43559 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Started SampleControllerHATEOASTest in 2.294 seconds (JVM running for 3.35)
+2020-04-04 15:12:39.351  INFO 43559 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:21:46.939  INFO 44146 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Starting SampleControllerHATEOASTest on Hansol9ui-MacBookPro-2.local with PID 44146 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 15:21:46.945 DEBUG 44146 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 15:21:46.946  INFO 44146 --- [main] h.s.s.s.SampleControllerHATEOASTest      : The following profiles are active: prod,proddb
+2020-04-04 15:21:47.720  INFO 44146 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:21:47.788  INFO 44146 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 15:21:48.864  INFO 44146 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 15:21:48.864  INFO 44146 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 15:21:48.873  INFO 44146 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 9 ms
+2020-04-04 15:21:49.318  INFO 44146 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Started SampleControllerHATEOASTest in 2.756 seconds (JVM running for 4.035)
+2020-04-04 15:21:49.780  INFO 44146 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:22:05.646  INFO 44170 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Starting SampleControllerHATEOASTest on Hansol9ui-MacBookPro-2.local with PID 44170 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 15:22:05.651 DEBUG 44170 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 15:22:05.652  INFO 44170 --- [main] h.s.s.s.SampleControllerHATEOASTest      : The following profiles are active: prod,proddb
+2020-04-04 15:22:06.384  INFO 44170 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:22:06.455  INFO 44170 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 15:22:06.995  INFO 44170 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 15:22:06.996  INFO 44170 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 15:22:07.003  INFO 44170 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 7 ms
+2020-04-04 15:22:07.366  INFO 44170 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Started SampleControllerHATEOASTest in 2.092 seconds (JVM running for 3.146)
+2020-04-04 15:22:07.705  INFO 44170 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:26:14.330  INFO 44438 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Starting SampleControllerHATEOASTest on Hansol9ui-MacBookPro-2.local with PID 44438 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 15:26:14.336 DEBUG 44438 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 15:26:14.337  INFO 44438 --- [main] h.s.s.s.SampleControllerHATEOASTest      : The following profiles are active: prod,proddb
+2020-04-04 15:26:15.288  INFO 44438 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:26:15.357  INFO 44438 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 15:26:16.018  INFO 44438 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 15:26:16.018  INFO 44438 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 15:26:16.026  INFO 44438 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 8 ms
+2020-04-04 15:26:16.453  INFO 44438 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Started SampleControllerHATEOASTest in 2.507 seconds (JVM running for 3.839)
+2020-04-04 15:26:16.917  INFO 44438 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:26:52.479  INFO 44500 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Starting SampleControllerHATEOASTest on Hansol9ui-MacBookPro-2.local with PID 44500 (started by hansol9 in /Users/hansol9/Desktop/01. Github/11.SpringBoot)
+2020-04-04 15:26:52.484 DEBUG 44500 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-04 15:26:52.484  INFO 44500 --- [main] h.s.s.s.SampleControllerHATEOASTest      : The following profiles are active: prod,proddb
+2020-04-04 15:26:53.301  INFO 44500 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 15:26:53.382  INFO 44500 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-04 15:26:54.359  INFO 44500 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-04-04 15:26:54.359  INFO 44500 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2020-04-04 15:26:54.367  INFO 44500 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 8 ms
+2020-04-04 15:26:54.778  INFO 44500 --- [main] h.s.s.s.SampleControllerHATEOASTest      : Started SampleControllerHATEOASTest in 2.649 seconds (JVM running for 3.599)
+2020-04-04 15:26:55.257  INFO 44500 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
